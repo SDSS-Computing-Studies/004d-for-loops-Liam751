@@ -22,3 +22,10 @@ enter a number:4
 ****
 
 """
+
+a = int(input("Please enter number "))
+
+for x in range(0, a):
+        for x in range(0, a):
+            print("*", end="")
+        print("\n", end="")
