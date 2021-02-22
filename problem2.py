@@ -37,13 +37,18 @@ example:
 Enter a number: -4
 Invalid input
 """
-import math
-x = float(input("Please enter number "))
-answer = 1
-if x >= 0 and x % 1 == 0:
-    x = int(x)
-    for i in range(1,x+1):
-        answer *= i
-        print (str(x) +"!" + " is " + str(i))
+
+a = float(input("Enter a number "))
+b = 1
+c = 1
+attempt = 0
+if a >= 0 and a % 1 == 0:
+    while (b < a):
+        b = b + 1
+        c = b * c
+        
+    print (str(int(a)) + "! is " + str(c))
 else:
-    print ("Invalid input")
+    print("Invalid input")
+        
+
