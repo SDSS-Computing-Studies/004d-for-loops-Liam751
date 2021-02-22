@@ -17,6 +17,6 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
-x = int(input("Please enter number "))
-for i in range(1,13):
-    print(x * i, end = " ")
+a = int(input("Please enter number "))
+for x in range(1,13):
+    print(a * x, end = " ")

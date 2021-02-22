@@ -23,10 +23,10 @@ That name is on the list
 """
 
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
-x = str(input("Please enter name "))
+a = str(input("Please enter name "))
 
-for i in nameList:
-    if i == x:
+for x in nameList:
+    if x == a:
         print("That name is on the list")
         break
 else:
